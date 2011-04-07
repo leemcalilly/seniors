@@ -7,5 +7,10 @@
 
 ### Lee's Login
 username: lee
-email: leemcalilly@gmail.com
 password: Marlin83
+email: leemcalilly@gmail.com
+
+### Admin Login
+username: admin
+password: withseniors
+email: jane@jsrassociates.net
