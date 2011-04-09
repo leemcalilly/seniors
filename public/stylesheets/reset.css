@@ -1,4 +1,43 @@
 /*
+STYLE GUIDE 
+
+Color Palette
+http://www.colourlovers.com/palette/1510463/SLSG_Palette_2
+Dark Green
+558E61
+(84, 142, 97)
+
+Light Green
+81A581
+(129, 165, 129)
+Naval
+303a4c
+(48, 58, 76)
+
+Indigo Batik
+4d5c6d
+(77, 92, 109)
+
+Reserved White
+e0e0da
+(224, 224, 218)
+
+Standard White
+fdfdfd
+
+Standard Black
+333333
+
+Type
+$jumbo: 21px
+$extra_large: 18px
+$large: 16px
+$medium: 14px
+$regular: 12px
+$small: 10px
+*/
+
+/*
   Override default refinery application CSS below.
   Formatting applies to all frontend.
 */
@@ -137,7 +176,10 @@ html {
 body {
 	text-align:center;
 	height:100%;
-	overflow: hidden
+	overflow: hidden;
+	font-family: 'FranklinGothicFSDemiCondensed', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	line-height: 1.4;
 }
 
 #wrapper {
@@ -148,3 +190,52 @@ body {
 	margin:0 auto 0 auto;
 }
 
+
+h1, h2, h3, h4, h5 {
+  font-style: normal;
+  padding: 0 0 10px 0;
+  margin: 0 0 0 0;
+}
+
+h1 {
+  font-size: 21px;
+}
+
+h2  {
+  font-size: 18px;
+}
+
+h3  {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+blockquote {
+  font-style: italic;
+  padding: 8px 15px 10px 60px;
+}
+
+p, ul, dl, table {
+  font-size: 12px;
+  line-height: 1.2;
+  margin: 0 0 15px 0;
+}
+
+ul {
+  list-style-type: none
+}
+
+em {
+  font-style: italic''
+}
+
+strong {
+  font-weight: bold;
+}
