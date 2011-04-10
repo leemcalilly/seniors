@@ -250,33 +250,32 @@ strong {
 }
 
 #page {
-	float:left;
+	float: left;
 	width: 100%;
-	overflow:hidden;
+	overflow: hidden;
 }
 
 #body_content {
-	float:left;
-	width: 100%;
-	overflow:hidden;
+	float: left;
+	width: 566px;
+	overflow: hidden;
 }
 
 #side_body_content {
-	float:left;
-	width: 100%;
-	overflow:hidden;
+	float: left;
+	width: 349px;
+	overflow: hidden;
 	margin: 0 0 0 45px;
 }
 
 
 
-/*
-    // ========================================== \\
-   ||                                              ||
-   ||              Content                         ||
-   ||                                              ||
-    \\ ========================================== //
-*/
+/* HOMEPAGE */
 
+#slideshow {
+	float: left;
+	width: 566px;
+	height: 360px;
+}
 
 
