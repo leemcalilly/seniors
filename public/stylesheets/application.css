@@ -242,10 +242,10 @@ strong {
 
 #logo a {
 	float: left;
-	width: 360px;
-	height: 160px;
-	background: url('/images/logo.png') 0 0 no-repeat;
-	text-indent: -9999px;
+	x-width: 360px;
+	x-height: 160px;
+	x-background: url('/images/logo.png') 0 0 no-repeat;
+	x-text-indent: -9999px;
 }
 
 #page {
