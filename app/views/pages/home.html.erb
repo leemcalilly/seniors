@@ -1,6 +1,15 @@
 <section id='body_content'>
-  <%=raw @page[:body] %>
+<div id="slideshow">
+	<div class="fadein">
+	<% @page.images.each do |i| %>
+		<%= link_to image_tag(i.thumbnail("566x360").url) %>
+ 	<% end %>
+ 	</div><!--end fadein -->
+</div><!--end slideshow -->
+
+ <%=raw @page[:body] %>
 </section>
+
 <section id='side_body_content'>
   <%=raw @page[:side_body] %>
 </section>
