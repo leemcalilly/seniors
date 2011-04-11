@@ -14,3 +14,8 @@ email: leemcalilly@gmail.com
 username: admin
 password: withseniors
 email: jane@jsrassociates.net
+
+
+### Launch Checklist
+
+* Be sure to switch heroku and amazon s3 to accounts owned by Jane Rohde
