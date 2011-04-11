@@ -5,6 +5,6 @@ require File.expand_path('../application', __FILE__)
 Seniors::Application.initialize!
 
 # Amazon s3
-ENV['S3_KEY']='AKIAJFTZA54JRR4SPGHQ'
-ENV['S3_SECRET']='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'
+ENV['S3_KEY']='AKIAIOL3STOCQEONPM6A'
+ENV['S3_SECRET']='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'
 ENV['S3_BUCKET']='with_seniors_in_mind'
