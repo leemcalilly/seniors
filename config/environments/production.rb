@@ -48,9 +48,3 @@ Seniors::Application.configure do
   config.active_support.deprecation = :notify
 end
 Refinery.rescue_not_found = true
-
-# Amazon s3
-Refinery.s3_backend = true
-ENV['S3_KEY']='AKIAIOL3STOCQEONPM6A'
-ENV['S3_SECRET']='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'
-ENV['S3_BUCKET']='with_seniors_in_mind'
