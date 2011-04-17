@@ -1,0 +1,9 @@
+Hi Lee-
+I met you briefly at one of Jude Rabig’s events and know your Dad.  I’m on the NASH website and wanted to see if you could help me on a project that I’m working on. 
+ 
+I have a product call the Senior Living Sustainability GuideÔ (SLSG) that I’ve been working on with a dedicated group of volunteers for almost three years.  The Guide is for not only the built environment, but also has four other dimensions for Resident, Organization, and Operations.  The goal is to help people be able to apply culture change to all aspects of their development process to make better environments for seniors.  The Guide is almost ready to go live and I need to have it posted.  I have gone through the Trademark process and we will be able to utilize the Ò symbol shortly!  I also have a presentation in March at Environments for Aging and need to provide contact information for getting access to the document on-line. 
+ 
+I have a URL: www.withseniorsinmind.org that I would like to use for a website, but I would like it to be more interactive than simply a website.  Kind of a blog & website combined into one.  I’d like to make it dynamic and also something that I could change easily (or myself) as there isn’t really funding for a lot of regular changes, once the site is up and running.  I wondered if you would be interested in working with me.  I have a website: www.jsrassociates.net and a web guy: Accent Interactive, but they are not very creative when it comes to doing something a bit different, so I’m thinking you guys would be perfect, because you understand the small house and culture change for seniors.
+ 
+Would you be interested?  Could we talk through this and see?  I would also need some idea of $$’s, as I need to budget for the project within my office, too.  Thanks!
+Jane
