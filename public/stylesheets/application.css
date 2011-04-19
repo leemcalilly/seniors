@@ -28,6 +28,7 @@ fdfdfd
 
 Standard Black
 333333
+(51, 51, 51)
 
 Type
 $jumbo: 21px
@@ -177,6 +178,7 @@ html {
 body {
 	text-align: center;
 	height: 100%;
+	color: #e0e0da;
 	font-family: 'FranklinGothicFSDemiCondensed', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-size: 62.5%;
 	line-height: 1.4;
@@ -187,8 +189,8 @@ body {
 	width: 770px;
 	overflow: hidden;
 	text-align: left;
-	padding: 20px 0 20px 0;
-	margin: 30px auto 30px auto;
+	padding: 30px 0 15px 0;
+	margin: 45px auto 30px auto;
 	background: #4d5c6d url('/images/bg_texture.png') 0 0 repeat;
 	-webkit-box-shadow: 3px 3px 2px rgba(35, 31, 32, 0.5);
 	-moz-box-shadow: 3px 3px 2px rgba(35, 31, 32, 0.5);
@@ -258,7 +260,7 @@ strong {
 header {
 	float: left;
 	width: 180px;
-	padding: 0 40px 0 0;
+	padding: 0 25px 0 15px;
 }
 
 #logo {
@@ -291,13 +293,13 @@ header {
 #body_content {
 	float: right;
 	width: 490px;
-	padding: 0 30px 0 30px;
+	padding: 0 45px 0 15px;
 }
 
 footer {
 	float: left;
 	width: 710px;
-	color: #333333;
+	color: #303a4c;
 	text-align: right;
 	margin: 45px 30px 0 30px;
 	padding: 5px 0 0 0;
@@ -308,6 +310,7 @@ footer {
 	float: left;
 	width: 130px;
 	padding: 0 30px 0 30px;
+	margin: 30px 0 0 0;
 }
 
 #menu ul {
@@ -327,7 +330,7 @@ footer {
 	float: left;
 	width: 100%;
 	text-decoration: none;
-	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+	text-shadow: 0 1px 1px rgba(51, 51, 51, 0.85);
 	color: #e0e0da;
 	background: #303a4c url('/images/bg_texture.png') 0 0 repeat;
 	padding: 5px 0 5px 0;
@@ -338,7 +341,8 @@ footer {
 }
 
 #menu li a:hover {
-	background: #4d5c6d;
+	color: #fdfdfd;
+	background: #303a4c;
 }
 
 /* HOMEPAGE */
@@ -350,6 +354,7 @@ footer {
 	-moz-box-shadow: 3px 3px 2px rgba(35, 31, 32, 0.5);
 	box-shadow: 3px 3px 2px rgba(35, 31, 32, 0.5);
 	border: 1px solid #303a4c;
+	margin: 0 0 30px 0;
 }
 
 #slideshow img {
@@ -368,5 +373,40 @@ footer {
 	position:absolute; 
 	left:0; 
 	top:0;
+}
+
+#welcome {
+	float: left;
+	width: 273px;
+	padding: 0 15px 0 15px;
+}
+
+#download_it_today {
+	float: right;
+	width: 157px;
+	padding: 0 15px 0 15px;
+}
+
+#download_it_today a {
+	float: left;
+	overflow: hidden;
+	width: 100%;
+	color: #fdfdfd;
+	background: #558E61 url('/images/bg_texture.png') 0 0 repeat;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px 0 10px 0;
+	-webkit-box-shadow: 3px 3px 2px rgba(35, 31, 32, 0.5);
+	-moz-box-shadow: 3px 3px 2px rgba(35, 31, 32, 0.5);
+	box-shadow: 3px 3px 2px rgba(35, 31, 32, 0.5);
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 20px 0 0 0;
+}
+
+#download_it_today a:hover {
+	background: #81A581 url('/images/bg_texture.png') 0 0 repeat;
 }
 
