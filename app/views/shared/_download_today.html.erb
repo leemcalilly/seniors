@@ -1,1 +1,4 @@
-<p id="download_it_today"><a href="/about">Download it Now!</a></p>
+<% page = Page.find('about') -%>
+<p id="download_it_today">
+	<%= link_to "Download it Now!", page.url %>
+</p>
