@@ -1,45 +1,4 @@
 /*
-STYLE GUIDE 
-
-Color Palette
-http://www.colourlovers.com/palette/1510463/SLSG_Palette_2
-Dark Green
-558E61
-(84, 142, 97)
-
-Light Green
-81A581
-(129, 165, 129)
-
-Naval
-303a4c
-(48, 58, 76)
-
-Indigo Batik
-4d5c6d
-(77, 92, 109)
-
-Reserved White
-e0e0da
-(224, 224, 218)
-
-Standard White
-fdfdfd
-
-Standard Black
-333333
-(51, 51, 51)
-
-Type
-$jumbo: 21px
-$extra_large: 18px
-$large: 16px
-$medium: 14px
-$regular: 12px
-$small: 10px
-*/
-
-/*
   Override default refinery application CSS below.
   Formatting applies to all frontend.
 */
@@ -182,6 +141,7 @@ body {
 	font-family: 'FranklinGothicFSDemiCondensed', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 	font-size: 62.5%;
 	line-height: 1.4;
+	text-shadow: 0 1px 1px rgba(51, 51, 51, 0.85);
 	background: #303a4c url('/images/bg_texture.png') 0 0 repeat;	
 }
 
@@ -310,7 +270,7 @@ footer {
 	float: left;
 	width: 130px;
 	padding: 0 30px 0 30px;
-	margin: 30px 0 0 0;
+	margin: 5px 0 0 0;
 }
 
 #menu ul {
@@ -390,23 +350,26 @@ footer {
 #download_it_today a {
 	float: left;
 	overflow: hidden;
-	width: 100%;
+	width: 137px;
 	color: #fdfdfd;
 	background: #558E61 url('/images/bg_texture.png') 0 0 repeat;
+	
 	font-size: 18px;
 	text-align: center;
 	text-decoration: none;
 	font-weight: bold;
-	padding: 10px 0 10px 0;
+	padding: 10px 10px 10px 10px;
 	-webkit-box-shadow: 3px 3px 2px rgba(35, 31, 32, 0.5);
 	-moz-box-shadow: 3px 3px 2px rgba(35, 31, 32, 0.5);
 	box-shadow: 3px 3px 2px rgba(35, 31, 32, 0.5);
-	-moz-border-radius: 10px;
-	border-radius: 10px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
 	margin: 20px 0 0 0;
 }
 
 #download_it_today a:hover {
-	background: #81A581 url('/images/bg_texture.png') 0 0 repeat;
+	x-background: #81A581 url('/images/bg_texture.png') 0 0 repeat;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#558E61), to(#81A581));
+	background-image: -moz-linear-gradient(100% 90% 100deg,#81A581, #558E61);
 }
 
