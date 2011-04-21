@@ -19,4 +19,4 @@ email: jane@jsrassociates.net
 ### Launch Checklist
 
 * Be sure to switch heroku and amazon s3 to accounts owned by Jane Rohde
-
+* Double check all the settings and permissions on production
