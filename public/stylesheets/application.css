@@ -480,19 +480,24 @@ footer {
 }
 
 #blog_posts h1 {
+	font-size: 18px;
 	border: none;
 	padding: 0 0 0 0;
 	margin: 0 0 5px 0;
 }
 
+#blog_post h1 {
+	font-size: 18px;
+}
+
+
 .blog_post h1 a {
 	color: #e0e0da;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .blog_post h1 a:hover {
-	text-decoration: none;
-	text-shadow: none;
+	text-decoration: underline;
 }
 
 .blog_post footer p a {
@@ -505,7 +510,7 @@ footer {
 }
 
 .blog_post p {
-	font-size: 14px;
+	font-size: 12px;
 }
 
 #blog_post header {
@@ -524,7 +529,7 @@ footer {
 }
 
 #blog_post p {
-	font-size: 14px;
+	font-size: 12px;
 }
 
 #next_prev_article a {
@@ -545,8 +550,10 @@ footer {
 	margin: 30px 0 0 0;
 }
 
-#comments p {
-	margin: 0 0 30px 0;
+#comments h2 {
+	float: left;
+	width: 100%;
+	margin: 15px 0 0 0;
 }
 
 #comments .field {
@@ -613,3 +620,26 @@ footer {
 	-moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
+
+.blog_comment_message {
+	float: left;
+	width: 100%;
+	padding: 10px 0 10px 0;
+}
+
+.blog_comment_message p {
+	float: left;
+	margin: 0 0 5px 0;
+}
+
+.blog_comment_message .blog_comment_author {
+	float: left;
+	width: 100%;
+	margin: 0 0 0 0;
+	border: none;
+}
+
+.flash_notice {
+	text-shadow: none;
+}
+
