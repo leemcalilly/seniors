@@ -13,9 +13,9 @@
 ActiveRecord::Schema.define(:version => 20110417201606) do
 
   create_table "blog_categories", :force => true do |t|
-    t.string   "title"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.string    "title"
+    t.timestamp "created_at"
+    t.timestamp "updated_at"
   end
 
   add_index "blog_categories", ["id"], :name => "index_blog_categories_on_id"
@@ -28,26 +28,26 @@ ActiveRecord::Schema.define(:version => 20110417201606) do
   add_index "blog_categories_blog_posts", ["blog_category_id", "blog_post_id"], :name => "index_blog_categories_blog_posts_on_bc_and_bp"
 
   create_table "blog_comments", :force => true do |t|
-    t.integer  "blog_post_id"
-    t.boolean  "spam"
-    t.string   "name"
-    t.string   "email"
-    t.text     "body"
-    t.string   "state"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.integer   "blog_post_id"
+    t.boolean   "spam"
+    t.string    "name"
+    t.string    "email"
+    t.text      "body"
+    t.string    "state"
+    t.timestamp "created_at"
+    t.timestamp "updated_at"
   end
 
   add_index "blog_comments", ["id"], :name => "index_blog_comments_on_id"
 
   create_table "blog_posts", :force => true do |t|
-    t.string   "title"
-    t.text     "body"
-    t.boolean  "draft"
-    t.datetime "published_at"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "user_id"
+    t.string    "title"
+    t.text      "body"
+    t.boolean   "draft"
+    t.timestamp "published_at"
+    t.timestamp "created_at"
+    t.timestamp "updated_at"
+    t.integer   "user_id"
   end
 
   add_index "blog_posts", ["id"], :name => "index_blog_posts_on_id"
@@ -75,23 +75,23 @@ ActiveRecord::Schema.define(:version => 20110417201606) do
   end
 
   create_table "inquiries", :force => true do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "phone"
-    t.text     "message"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.boolean  "spam",       :default => false
+    t.string    "name"
+    t.string    "email"
+    t.string    "phone"
+    t.text      "message"
+    t.timestamp "created_at"
+    t.timestamp "updated_at"
+    t.boolean   "spam",       :default => false
   end
 
   add_index "inquiries", ["id"], :name => "index_inquiries_on_id"
 
   create_table "inquiry_settings", :force => true do |t|
-    t.string   "name"
-    t.text     "value"
-    t.boolean  "destroyable"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.string    "name"
+    t.text      "value"
+    t.boolean   "destroyable"
+    t.timestamp "created_at"
+    t.timestamp "updated_at"
   end
 
   create_table "page_part_translations", :force => true do |t|
