@@ -1,4 +1,5 @@
 <% page = Page.find('about') -%>
 <p id="download_now">
-	<%= link_to "Download it Now!", 'http://seniors.heroku.com/system/resources/BAhbBlsHOgZmIi0yMDExLzA0LzIwLzE4LzUzLzEzLzIxNy9zYW1wbGVfZ3VpZGUucGRm/sample_guide.pdf' %>
+	<%= link_to "Download it Now!", Resource.find(1).url %>
+	
 </p>
