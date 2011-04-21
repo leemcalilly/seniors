@@ -151,7 +151,7 @@ body {
 	text-align: left;
 	font-size: 12px;
 	padding: 30px 0 15px 0;
-	margin: 45px auto 30px auto;
+	margin: 30px auto 30px auto;
 	background: #4d5c6d url('/images/bg_texture.png') 0 0 repeat;
 	-webkit-box-shadow: 3px 3px 2px rgba(35, 31, 32, 0.5);
 	-moz-box-shadow: 3px 3px 2px rgba(35, 31, 32, 0.5);
@@ -257,6 +257,10 @@ header {
 	padding: 0 45px 0 15px;
 }
 
+#body_content .inner {
+	padding: 0 0 0 0;
+}
+
 #body_content h1 {
 	float: left;
 	width: 100%;
@@ -265,13 +269,13 @@ header {
 	border-bottom: 1px dotted #e0e0da;
 }
 
-#download_it_today {
+#download_now {
 	float: right;
 	width: 157px;
 	padding: 0 15px 0 15px;
 }
 
-#download_it_today a {
+#download_now a {
 	float: left;
 	overflow: hidden;
 	width: 137px;
@@ -290,10 +294,10 @@ header {
 	margin: 5px 0 0 0;
 }
 
-#download_it_today a:hover {
+#download_now a:hover {
 	background: #81A581 url('/images/bg_texture.png') 0 0 repeat;
-	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#558E61), to(#81A581));
-	background-image: -moz-linear-gradient(100% 90% 100deg,#81A581, #558E61);
+	x-background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#558E61), to(#81A581));
+	x-background-image: -moz-linear-gradient(100% 90% 100deg,#81A581, #558E61);
 }
 
 
@@ -415,17 +419,20 @@ footer {
 
 #body_content_left {
 	float: left;
-	width: 375px;
+	width: 294px;
 	margin: 0 15px 0 0;
 }
 
 #body_content_right {
 	float: right;
-	width: 100px;
+	width: 181px;
 }
 
 #body_content_right a {
+	float: left;
+	width: 100%;
 	color:#e0e0da;
+	margin: 0 0 15px 0;
 }
 
 
@@ -447,16 +454,16 @@ footer {
 #blog_posts header details {
 	float: left;
 	width: 100%;
-	color: #303a4c;
+	color: #607890;
 	text-shadow: none;
 	margin: 0 0 15px 0;
 }
 
 #blog_posts header .posted_at {
 	float: left;
-	width: 100%;
+	width: auto;
 	padding: 0 10px 0 0;
-	margin: 0 0 3px 0;
+	margin: 0 0 0 0;
 }
 
 #blog_posts footer {
@@ -479,13 +486,12 @@ footer {
 }
 
 .blog_post h1 a {
-	color: #607890;
-	text-decoration: none;
+	color: #e0e0da;
+	text-decoration: underline;
 }
 
 .blog_post h1 a:hover {
-	color:#607890;
-	text-decoration: underline;
+	text-decoration: none;
 	text-shadow: none;
 }
 
@@ -506,4 +512,104 @@ footer {
 	float: left;
 	width: 100%;
 	padding: 0 0 0 0;
+}
+
+#blog_post header details {
+	float: left;
+	width: 100%;
+	color: #303a4c;
+	text-shadow: none;
+	padding: 0 0 0 0;
+	margin: 0 0 10px 0;
+}
+
+#blog_post p {
+	font-size: 14px;
+}
+
+#next_prev_article a {
+	color: #e0e0da;
+	text-decoration: underline;
+}
+
+#next_prev_article a:hover {
+	text-decoration: none;
+}
+
+#comments {
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px dotted #e0e0da;
+	padding: 5px 0 0 0;
+	margin: 30px 0 0 0;
+}
+
+#comments p {
+	margin: 0 0 30px 0;
+}
+
+#comments .field {
+	float: left;
+	width: 100%;
+	margin: 0 0 15px 0;
+}
+
+#comments form label {
+    float: left;
+    font-size: 16px;
+    width: 80px;
+    margin: 0 10px 5px 0;
+}
+
+
+#comments form input[type="text"], #comments form input[type="email"] {
+	float: left;
+	width: 190px;
+	font-size: 14px;
+	background-color: #e0e0da;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E0E0DA), to(#fdfdfd));
+	background-image: -moz-linear-gradient(0% 100% 90deg,#fdfdfd, #E0E0DA);
+	padding: 5px 2px 5px 5px;
+	border: none;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#comments form textarea {
+	float: left;
+	width: 277px;
+	font-size: 14px;
+	background-color: #e0e0da;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E0E0DA), to(#fdfdfd));
+	background-image: -moz-linear-gradient(0% 100% 90deg,#fdfdfd, #E0E0DA);
+	padding: 5px 5px 5px 5px;
+	border: none;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#comments form .actions {
+	float: left;
+	width: 100%;
+	margin: 10px 0 0 100px;
+}
+
+#blog_comment_submit {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1;
+	color: #303a4c;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+	border: none;
+	background-color: #fdfdfd;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bbb), to(#fdfdfd));
+	background-image: -moz-linear-gradient(0% 100% 90deg,#bbb, #fdfdfd);
+	padding: 5px 10px 5px 10px;
+	margin: 0 0 0 0;
+	-moz-border-radius: 23px;
+	border-radius: 23px;
+	-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
