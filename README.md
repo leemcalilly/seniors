@@ -1,3 +1,16 @@
+# Current Comments on the site
+Hi Lee-
+A couple of items regarding the site:
+1. When someone downloads the Guide, I would like them to register, so we can keep a listing of who is registering to use the Guide.
+2. I’ll need a page for Volunteer Committee Members that have contributed content and information for the guide.  I’ve requested a picture and contact information from the different committee members and that is starting to trickle in.  I can provide you this information as soon as I receive it.
+3. I’ve also asked the committee to provide images that they would like to see on the website.  The images will most likely want to move a little slower than they do now, and I’m assuming that can be adjusted.  I’ll work on sending some as I get those in, too.
+4. We’ll need a page for references & resources, so we can list different websites and information.
+5. I’ve attached revised verbage for the “About” page based upon comments from one of my committee members.
+6. I’ll need a couple more days to get you a final PDF for the Guide itself.  I have a new introduction that goes in the Guide from one of the committee members that I need to finalize and read through the Guide one more time.  We are working on four additional files that will also be downloadable.  They are Excel spreadsheets.
+7. Currently we’ll need to use the “TM” symbol for Senior Living Sustainability GuideÔ  Shortly we will be able to use the Ò symbol, but not quite yet.
+I’m still working on getting the logins done, etc.  I’ll keep you posted.  Thanks.
+Jane
+
 # Current Logo Changes
 
 Hi Lee-
