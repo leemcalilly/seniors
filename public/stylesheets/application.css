@@ -193,7 +193,7 @@ blockquote {
 }
 
 p, ul, dl, table {
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 1.2;
 	margin: 0 0 15px 0;
 }
@@ -296,8 +296,6 @@ header {
 
 #download_now a:hover {
 	background: #81A581 url('/images/bg_texture.png') 0 0 repeat;
-	x-background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#558E61), to(#81A581));
-	x-background-image: -moz-linear-gradient(100% 90% 100deg,#81A581, #558E61);
 }
 
 
@@ -510,7 +508,7 @@ footer {
 }
 
 .blog_post p {
-	font-size: 12px;
+	font-size: 16px;
 }
 
 #blog_post header {

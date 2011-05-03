@@ -42,3 +42,7 @@
 	width: 273px;
 	padding: 0 15px 0 15px;
 }
+
+#welcome p {
+	font-size: 12px;
+}
