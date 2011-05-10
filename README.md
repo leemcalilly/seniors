@@ -23,3 +23,17 @@ username: admin
 password: withseniors
 email: jane@jsrassociates.net
 
+
+### Amazon S3
+jane@jsrassociates.net
+2594aj
+
+
+### Heroku
+jane@jsrassociates.net
+2594aj
+
+
+### Wufoo
+jane@jsrassociates.net
+2594aj

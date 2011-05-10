@@ -3,9 +3,9 @@ Seniors::Application.configure do
   
   # Amazon s3
   Refinery.s3_backend = true
-  ENV['S3_KEY']='AKIAIOL3STOCQEONPM6A'
-  ENV['S3_SECRET']='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'
-  ENV['S3_BUCKET']='with_seniors_in_mind'
+  ENV['S3_KEY']='AKIAIFBX5HZKBKFVSVHQ'
+  ENV['S3_SECRET']='0lK+W3oqRzeDYJ/sH7YWJAaWP5n9c2TujM7Khtu1'
+  ENV['S3_BUCKET']='seniors_production'
   
   # In the development environment your application's code is reloaded on
   # every request.  This slows down response time but is perfect for development
