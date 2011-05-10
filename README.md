@@ -1,8 +1,9 @@
 ### Launch Checklist
 
-* Be sure to switch heroku and amazon s3 to accounts owned by Jane Rohde
+* switch hosting to jane's heroku
 * Double check all the settings and permissions on production
-* Switch wufoo to Jane's account and update all the links in the site. Make sure the download link works on production.
+* email the guide out to early signups (include lee and jane's wufoo account)
+* Double check wufoo settings and links
 * Don't forget to set up www to non-www rails forwarding
 
 
