@@ -5,6 +5,7 @@
 * email the guide out to early signups (include lee and jane's wufoo account)
 * Double check wufoo settings and links
 * Don't forget to set up www to non-www rails forwarding
+* Turn the download link back on
 
 
 # With Seniors in Mind
