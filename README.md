@@ -1,5 +1,11 @@
 # Notes on Revisions
 
+
+## Override the footer partial
+For the bottom of each page of the website, we want this to be the statement:
+ 
+ÓSenior Living Sustainability Guide is a registered trademark of With Seniors in Mind.   All rights reserved.  
+
 ## Set up app on new heroku account (double check amazon and wufoo links)
 
 ## Finalize the logo
