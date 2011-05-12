@@ -1,6 +1,5 @@
 # Notes on Revisions
 
-
 ## Override the footer partial
 For the bottom of each page of the website, we want this to be the statement:
  
