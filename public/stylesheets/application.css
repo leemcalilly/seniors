@@ -310,6 +310,10 @@ footer {
 	border-top: 1px dotted #303a4c;
 }
 
+footer p {
+	font-size: 12px;
+}
+
 #menu {
 	float: left;
 	width: 130px;
