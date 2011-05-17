@@ -21,7 +21,7 @@ password: Marlin83
 email: leemcalilly@gmail.com
 
 ### Admin Login
-username: admin
+username: Jane Rohde
 password: withseniors
 email: jane@jsrassociates.net
 
