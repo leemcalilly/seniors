@@ -207,7 +207,8 @@ a:hover {
 }
 
 ul {
-	list-style-type: none;
+	list-style-type: inside disc;
+	padding: 0 0 0 15px;
 }
 
 em {
