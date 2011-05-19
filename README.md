@@ -1,5 +1,11 @@
 ## Launch Checklist
-
+* clean background files out of the database
+* Need to make the darker text easier to read.
+* upgrade heroku
+* links on the contact page
+* 564px x 360px - email that to jane
+* change everything to registered trademark
+* finish the participants page
 * switch hosting to jane's heroku
 * Double check all the settings and permissions on production
 * email the guide out to early signups (include lee and jane's wufoo account)
