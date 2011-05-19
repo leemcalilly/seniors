@@ -199,11 +199,13 @@ p, ul, dl, table {
 }
 
 a {
-	color: #558E61;
+	color: #81A581;
+	text-shadow: none;
 }
 
 a:hover {
-	color: #4d5c6d;
+	color: #81A581;
+	text-decoration: none;
 }
 
 ul {
