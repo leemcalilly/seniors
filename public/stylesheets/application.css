@@ -504,11 +504,11 @@ footer p {
 }
 
 .blog_post footer p a {
-	color:#607890;
+	color:#81A581;
 }
 
 .blog_post footer p a:hover {
-	color:#607890;
+	color:#81A581;
 	text-decoration: none;
 }
 
@@ -532,7 +532,7 @@ footer p {
 }
 
 #blog_post p {
-	font-size: 12px;
+	font-size: 16px;
 }
 
 #next_prev_article a {
