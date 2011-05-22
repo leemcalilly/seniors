@@ -77,7 +77,7 @@ button {  width: auto; overflow: visible; }
 
 body, select, input, textarea {  color: #444; }
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
-a, a:active, a:visited { color: #607890; }
+a, a:active, a:visited { color: #81A581; }
 a:hover { color: #036; }
 
 .ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
@@ -193,6 +193,8 @@ blockquote {
 }
 
 p, ul, dl, table {
+	float: left;
+	width: 100%;
 	font-size: 16px;
 	line-height: 1.2;
 	margin: 0 0 15px 0;
@@ -464,7 +466,7 @@ footer p {
 #blog_posts header details {
 	float: left;
 	width: 100%;
-	color: #607890;
+	color: #81A581;
 	text-shadow: none;
 	margin: 0 0 15px 0;
 }
@@ -532,7 +534,7 @@ footer p {
 #blog_post header details {
 	float: left;
 	width: 100%;
-	color: #303a4c;
+	color: #81A581;
 	text-shadow: none;
 	padding: 0 0 0 0;
 	margin: 0 0 10px 0;
