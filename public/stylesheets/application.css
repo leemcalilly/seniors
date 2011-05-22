@@ -260,6 +260,10 @@ header {
 	padding: 0 45px 0 15px;
 }
 
+#body_content p {
+	float: left;
+}
+
 #body_content .inner {
 	padding: 0 0 0 0;
 }
