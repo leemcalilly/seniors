@@ -50,11 +50,11 @@ gem 'refinerycms-inquiries',    '~> 1.0.0'
 # gem 'refinerycms-portfolio',    '~> 0.9.9'
 # gem 'refinerycms-theming',      '~> 0.9.9'
 # gem 'refinerycms-search',       '~> 0.9.8'
-gem 'refinerycms-blog',         '~> 1.1'
-gem 'refinerycms-page-images',  '~> 1.0'
+gem 'refinerycms-blog',         '~> 1.3.2'
+gem 'refinerycms-page-images',  '~> 1.0.4'
 
 # Add i18n support (optional, you can remove this if you really want to).
-gem 'refinerycms-i18n',         '~> 0.9.9.13'
+gem 'refinerycms-i18n',         '~> 1.0.0'
 
 
 # END USER DEFINED
