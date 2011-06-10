@@ -35,9 +35,6 @@ gem 'fog', '0.8.2'
 
 gem 'refinerycms', '= 1.0.0'
 
-group :development, :test do
-  # gem 'refinerycms-testing',    '~> 0.9.9.22'
-end
 
 # END REFINERY CMS ============================================================
 
