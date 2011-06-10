@@ -10,12 +10,12 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110525144807) do
+ActiveRecord::Schema.define(:version => 20110610002549) do
 
   create_table "blog_categories", :force => true do |t|
-    t.string    "title"
-    t.timestamp "created_at"
-    t.timestamp "updated_at"
+    t.string   "title"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "blog_categories", ["id"], :name => "index_blog_categories_on_id"
@@ -28,26 +28,26 @@ ActiveRecord::Schema.define(:version => 20110525144807) do
   add_index "blog_categories_blog_posts", ["blog_category_id", "blog_post_id"], :name => "index_blog_categories_blog_posts_on_bc_and_bp"
 
   create_table "blog_comments", :force => true do |t|
-    t.integer   "blog_post_id"
-    t.boolean   "spam"
-    t.string    "name"
-    t.string    "email"
-    t.text      "body"
-    t.string    "state"
-    t.timestamp "created_at"
-    t.timestamp "updated_at"
+    t.integer  "blog_post_id"
+    t.boolean  "spam"
+    t.string   "name"
+    t.string   "email"
+    t.text     "body"
+    t.string   "state"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "blog_comments", ["id"], :name => "index_blog_comments_on_id"
 
   create_table "blog_posts", :force => true do |t|
-    t.string    "title"
-    t.text      "body"
-    t.boolean   "draft"
-    t.timestamp "published_at"
-    t.timestamp "created_at"
-    t.timestamp "updated_at"
-    t.integer   "user_id"
+    t.string   "title"
+    t.text     "body"
+    t.boolean  "draft"
+    t.datetime "published_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "user_id"
   end
 
   add_index "blog_posts", ["id"], :name => "index_blog_posts_on_id"
@@ -63,54 +63,54 @@ ActiveRecord::Schema.define(:version => 20110525144807) do
   add_index "image_pages", ["page_id"], :name => "index_image_pages_on_page_id"
 
   create_table "images", :force => true do |t|
-    t.string    "image_mime_type"
-    t.string    "image_name"
-    t.integer   "image_size"
-    t.integer   "image_width"
-    t.integer   "image_height"
-    t.timestamp "created_at"
-    t.timestamp "updated_at"
-    t.string    "image_uid"
-    t.string    "image_ext"
+    t.string   "image_mime_type"
+    t.string   "image_name"
+    t.integer  "image_size"
+    t.integer  "image_width"
+    t.integer  "image_height"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "image_uid"
+    t.string   "image_ext"
   end
 
   create_table "inquiries", :force => true do |t|
-    t.string    "name"
-    t.string    "email"
-    t.string    "phone"
-    t.text      "message"
-    t.timestamp "created_at"
-    t.timestamp "updated_at"
-    t.boolean   "spam",       :default => false
+    t.string   "name"
+    t.string   "email"
+    t.string   "phone"
+    t.text     "message"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.boolean  "spam",       :default => false
   end
 
   add_index "inquiries", ["id"], :name => "index_inquiries_on_id"
 
   create_table "inquiry_settings", :force => true do |t|
-    t.string    "name"
-    t.text      "value"
-    t.boolean   "destroyable"
-    t.timestamp "created_at"
-    t.timestamp "updated_at"
+    t.string   "name"
+    t.text     "value"
+    t.boolean  "destroyable"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "page_part_translations", :force => true do |t|
-    t.integer   "page_part_id"
-    t.string    "locale"
-    t.text      "body"
-    t.timestamp "created_at"
-    t.timestamp "updated_at"
+    t.integer  "page_part_id"
+    t.string   "locale"
+    t.text     "body"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "page_part_translations", ["page_part_id"], :name => "index_page_part_translations_on_page_part_id"
 
   create_table "page_parts", :force => true do |t|
-    t.integer   "page_id"
-    t.string    "title"
-    t.text      "body"
-    t.integer   "position"
-    t.timestamp "created_at"
-    t.timestamp "updated_at"
+    t.integer  "page_id"
+    t.string   "title"
+    t.text     "body"
+    t.integer  "position"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "page_parts", ["id"], :name => "index_page_parts_on_id"
@@ -152,27 +152,27 @@ ActiveRecord::Schema.define(:version => 20110525144807) do
   add_index "pages", ["rgt"], :name => "index_pages_on_rgt"
 
   create_table "refinery_settings", :force => true do |t|
-    t.string    "name"
-    t.text      "value"
-    t.boolean   "destroyable",             :default => true
-    t.timestamp "created_at"
-    t.timestamp "updated_at"
-    t.string    "scoping"
-    t.boolean   "restricted",              :default => false
-    t.string    "callback_proc_as_string"
-    t.string    "form_value_type"
+    t.string   "name"
+    t.text     "value"
+    t.boolean  "destroyable",             :default => true
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "scoping"
+    t.boolean  "restricted",              :default => false
+    t.string   "callback_proc_as_string"
+    t.string   "form_value_type"
   end
 
   add_index "refinery_settings", ["name"], :name => "index_refinery_settings_on_name"
 
   create_table "resources", :force => true do |t|
-    t.string    "file_mime_type"
-    t.string    "file_name"
-    t.integer   "file_size"
-    t.timestamp "created_at"
-    t.timestamp "updated_at"
-    t.string    "file_uid"
-    t.string    "file_ext"
+    t.string   "file_mime_type"
+    t.string   "file_name"
+    t.integer  "file_size"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "file_uid"
+    t.string   "file_ext"
   end
 
   create_table "roles", :force => true do |t|
@@ -201,18 +201,35 @@ ActiveRecord::Schema.define(:version => 20110525144807) do
   add_index "seo_meta", ["seo_meta_id", "seo_meta_type"], :name => "index_seo_meta_on_seo_meta_id_and_seo_meta_type"
 
   create_table "slugs", :force => true do |t|
-    t.string    "name"
-    t.integer   "sluggable_id"
-    t.integer   "sequence",                     :default => 1, :null => false
-    t.string    "sluggable_type", :limit => 40
-    t.string    "scope",          :limit => 40
-    t.timestamp "created_at"
-    t.string    "locale"
+    t.string   "name"
+    t.integer  "sluggable_id"
+    t.integer  "sequence",                     :default => 1, :null => false
+    t.string   "sluggable_type", :limit => 40
+    t.string   "scope",          :limit => 40
+    t.datetime "created_at"
+    t.string   "locale"
   end
 
   add_index "slugs", ["locale"], :name => "index_slugs_on_locale"
   add_index "slugs", ["name", "sluggable_type", "scope", "sequence"], :name => "index_slugs_on_n_s_s_and_s", :unique => true
   add_index "slugs", ["sluggable_id"], :name => "index_slugs_on_sluggable_id"
+
+  create_table "taggings", :force => true do |t|
+    t.integer  "tag_id"
+    t.integer  "taggable_id"
+    t.string   "taggable_type"
+    t.integer  "tagger_id"
+    t.string   "tagger_type"
+    t.string   "context"
+    t.datetime "created_at"
+  end
+
+  add_index "taggings", ["tag_id"], :name => "index_taggings_on_tag_id"
+  add_index "taggings", ["taggable_id", "taggable_type", "context"], :name => "index_taggings_on_taggable_id_and_taggable_type_and_context"
+
+  create_table "tags", :force => true do |t|
+    t.string "name"
+  end
 
   create_table "user_plugins", :force => true do |t|
     t.integer "user_id"

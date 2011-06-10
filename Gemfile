@@ -21,8 +21,7 @@ gem 'sqlite3'
 # gem 'bj'
 # gem 'nokogiri'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
-gem 'aws-s3', :require => 'aws/s3'
-gem 'fog'
+gem 'fog', '0.8.2'
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
@@ -34,7 +33,7 @@ gem 'fog'
 # REFINERY CMS ================================================================
 # Anything you put in here will be overridden when the app gets updated.
 
-gem 'refinerycms',              '= 0.9.9.22'
+gem 'refinerycms', '= 1.0.0'
 
 group :development, :test do
   # gem 'refinerycms-testing',    '~> 0.9.9.22'
@@ -43,16 +42,15 @@ end
 # END REFINERY CMS ============================================================
 
 # USER DEFINED
-gem 'taps', '~> 0.3.23'
 
 # Specify additional Refinery CMS Engines here (all optional):
-gem 'refinerycms-inquiries',    '~> 1.0.0'
+gem 'refinerycms-inquiries',    '~> 1.0'
 # gem 'refinerycms-news',         '~> 1.0'
 # gem 'refinerycms-portfolio',    '~> 0.9.9'
 # gem 'refinerycms-theming',      '~> 0.9.9'
 # gem 'refinerycms-search',       '~> 0.9.8'
-gem 'refinerycms-blog',         '~> 1.3.2'
-gem 'refinerycms-page-images',  '~> 1.0.4'
+gem 'refinerycms-blog',         '~> 1.5'
+gem 'refinerycms-page-images',  '~> 1.0.1'
 
 # Add i18n support (optional, you can remove this if you really want to).
 gem 'refinerycms-i18n',         '~> 1.0.0'
